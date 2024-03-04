@@ -1,0 +1,44 @@
+<template>
+    <div>
+            <span><img src={Imageview} alt="ProductEnquiryLogo"/></span>
+        </div>
+    <lightning-card title="Product Enquiry" icon-name="custom:custom14">
+        <div class="slds-m-around_medium">
+            <div class="slds-grid slds-gutters">
+                <div class="slds-col">
+                    <lightning-combobox name="progress" placeholder="-Select-" label="Model" options={ModelPicklistValues} onchange={handleModel} value={value}></lightning-combobox>
+                    <lightning-input type="text" onchange={nameInputMethod} label="Your Name"></lightning-input>
+                    <lightning-input type="email" onchange={emailInputMethod} label="Email ID"></lightning-input>
+                </div>
+                <div class="slds-col">
+                    <lightning-combobox name="progress" placeholder="-Select-" label
+                    ="State" options={StatePicklistValues} onchange={handleState} value={value}></lightning-combobox>
+                    <lightning-combobox name="progress" placeholder="-Select-" label="City" options={CityPicklistValues} onchange={handleCity} value={value}></lightning-combobox>
+                    <lightning-combobox name="progress" placeholder="-Select-" label="Dealer" options={DealerPicklistValues} onchange={handleDealer} value={value}></lightning-combobox>
+                    <lightning-input type="tel" onchange={mobileInputMethod} label="Mobile"></lightning-input>
+                </div>
+              </div>
+              <div class="slds-align_absolute-center slds-m-top_medium">
+                <div class="slds-checkbox">
+                    <abbr class="slds-required" title="required">*</abbr>
+                    <input type="checkbox" name="options" id="checkbox-unique-id-83" value="checkbox-unique-id-83" />
+                    <label class="slds-checkbox__label" for="checkbox-unique-id-83">
+                      <span class="slds-checkbox_faux"></span>
+                      <span class="slds-form-element__label">I agree to the terms and conditions</span>
+                    </label>
+                  </div>
+                <!--<lightning-checkbox-group name="Checkbox Group" onchange={IAgreeCBMethod} options={options} value={checkboxvalue}></lightning-checkbox-group>-->
+              </div>
+            <div class="slds-align_absolute-center slds-m-top_medium">
+                <ul class="slds-button-group-row">
+                    <li class="slds-button-group-item">
+                        <lightning-button variant="brand" label="Submit" title="Submit" onclick={handleSubmit}></lightning-button>
+                    </li>
+                    <li class="slds-button-group-item">
+                        <lightning-button variant="destructive" label="Reset" title="Reset" onclick={handleReset}></lightning-button>
+                    </li>
+                  </ul>     
+            </div>
+        </div>
+    </lightning-card>
+</template>
