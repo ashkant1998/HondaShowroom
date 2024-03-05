@@ -1,0 +1,120 @@
+<template>
+    <lightning-carousel class="responsive" style="height: 270px;">
+<template if:true={CarouselImg}>
+    <template for:each={CarouselImg} for:item="CasImg">
+    <lightning-carousel-image 
+        key={CasImg.id}
+        src={CasImg.src} style="height: 370px;">
+    </lightning-carousel-image>
+    </template>
+</template>
+    </lightning-carousel>
+    <br>
+    <div class="slds-grid slds-wrap">
+        <div class="slds-col card hover-shadow slds-align-absolute_center slds-size_12-of-12 slds-medium-size_4-of-12 slds-large-size_4-of-12" >
+        <span class="slds-align-absolute_center">
+            <h2 style="float: center;">About Us</h2>
+            <hr align="center" width="130px" class="bod1"><br>
+            <hr align="center" width="80px" class="bod2">
+            <br>
+            <p style="padding-top: 2%;">Honda Motorcycle & Scooter India Pvt. Ltd. (HMSI) 
+                is the wholly-owned subsidiary of Honda Motor 
+                Company, Japan – the World’s No.1 two-wheeler company. 
+                Commencing its Indian 2Wheeler operations in May 2001, 
+                Honda in the last two decades has grown to become India’s 2
+                <sup>nd</sup> largest two-wheeler company with over 55 million happy
+                customers.</p>
+        </span>
+        </div>
+        <div class="slds-col card hover-shadow slds-align-absolute_center slds-size_12-of-12 slds-medium-size_4-of-12 slds-large-size_4-of-12">
+        <span >
+            <h2 style="float: center;">New Launch</h2>
+            <hr align="center" width="130px" class="bod1"><br>
+            <hr align="center" width="80px" class="bod2"><br>
+            <lightning-carousel class="repo" >
+                <template if:true={data}>
+                    <template for:each={data} for:item="dataImg">
+                        <lightning-carousel-image
+                        key={dataImg.id}
+                        src={dataImg.image} style="height: 215px;"></lightning-carousel-image>
+                    </template>
+                </template>
+            </lightning-carousel>
+        </span>
+        </div>
+        <div class="slds-col card hover-shadow slds-align-absolute_center slds-size_12-of-12 slds-medium-size_4-of-12 slds-large-size_4-of-12" >
+        <span >
+            <h2 style="float: center;">Latest</h2>
+            <hr align="center" width="130px" class="bod1"><br>
+            <hr align="center" width="80px" class="bod2"><br>
+            <lightning-carousel class="repo">
+                <template if:true={data}>
+                    <template for:each={data} for:item="dataImg">
+                        <lightning-carousel-image
+                        key={dataImg.id}
+                        src={dataImg.image} style="height: 215px;"></lightning-carousel-image>
+                    </template>
+                </template>
+            </lightning-carousel>
+        </span>
+        </div>
+        </div>
+        <br>
+        <div class="slds-grid slds-wrap slds-p-horizontal_small">
+            
+            <div class="slds-col  hover-shadow slds-large-size_6-of-12">
+                
+                <h2 style="float: center;">News</h2>
+                
+                <a href="/media-center/PressReleaseDetails/3398" 
+                title="Honda Racing India Riders all set for Round 5 of 2023 Asia Road Racing Championship in China">
+                Honda Racing India Riders all set for Round 5 of 2023 Asia Road Racing Championship in China</a>
+                <br>
+                <h1 style="margin-left: 10px;">China, November 01,2023</h1>
+                <br>
+                <hr align="center" width="80px" class="bod2">
+
+                <a href="/media-center/PressReleaseDetails/3397" title="Honda Motorcycle 
+                &amp; Scooter India conducts Road Safety Awareness Campaign in Aizawl, Mizoram">Honda Motorcycle 
+                &amp; Scooter India conducts Road Safety Awareness Campaign in Aizawl, Mizoram</a>
+                <br>
+                <h1 style="margin-left: 10px;">
+                    Mizoram(Aizawl), March 10,2023
+                </h1>
+                <br>
+                <hr align="center" width="80px" class="bod2">
+
+                <a class="firstOne" href="/media-center/PressReleaseDetails/3406" title="Honda Motorcycle 
+                &amp; Scooter India inaugurates new 3rd Assembly Line at its Gujarat plant">Honda Motorcycle 
+                &amp; Scooter India inaugurates new 3rd Assembly Line at its Gujarat plant</a>
+                <br>
+                <h1 style="margin-left: 10px;">
+                    Gujarat, June 15,2023
+                </h1>
+                <br>
+                <hr align="center" width="80px" class="bod2">
+
+                <a href="/media-center/PressReleaseDetails/3400" title="A Successful Road Safety Awareness Campaign by Honda Motorcycle and Scooter India in Hubli">
+                A Successful Road Safety Awareness Campaign by Honda Motorcycle and Scooter India in Hubli</a>
+                <br>
+                <h1 style="margin-left: 10px;">
+                    Hubli, january 23,2024
+                </h1>
+                <br>
+                <hr align="center" width="80px" class="bod2">
+            
+        </div>
+        
+            <div class="slds-col  hover-shadow slds-align-absolute_center slds-large-size_6-of-12" >
+                
+                <h2 style="float: center;">Video</h2>
+                
+                <iframe width="475" height="332" src="https://www.youtube.com/embed/L55-bVYeQVQ" 
+                title="Honda Shine 100 | 90 Seconds" frameborder="0" 
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                allowfullscreen></iframe>
+           
+        </div>
+        </div>
+        
+</template>

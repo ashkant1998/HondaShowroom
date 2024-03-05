@@ -1,0 +1,23 @@
+img{
+    float: left;
+    margin-top: -50px;
+}
+.home_right{
+
+    align-items:center;
+    width: auto;
+    justify-content: right;
+    margin-right: 200px;
+    
+    padding-left: 50px;
+}
+.tabset lightning-tabset{
+    background-color: crimson;
+}
+.repo{
+    width: 50%;
+    height: 70px;
+    margin-top: 30px;
+    scroll-snap-type: none;
+    
+}
