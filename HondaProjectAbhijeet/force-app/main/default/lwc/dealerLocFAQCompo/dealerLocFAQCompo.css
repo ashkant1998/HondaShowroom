@@ -1,0 +1,28 @@
+.img-box {
+    background-color: grey;
+    width: 300px;
+    margin: 20px;
+    display: inline-flex;
+    
+}
+.img-box h4{
+    font-size: large;
+    color: black;
+    text-align: center;
+    margin-top: 10px;
+    margin-left: 30px;
+}
+
+.text-box{
+  background-color: grey;
+    width: 300px;
+    margin: 20px;
+    display: inline-flex;
+}
+.text-box h4{
+  font-size: large;
+    color: black;
+    text-align: center;
+    margin-top: 10px;
+    margin-left: 30px;
+}

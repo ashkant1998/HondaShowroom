@@ -1,0 +1,81 @@
+.responsive{
+    width: 100%;
+    height: 100px;
+}
+.repo{
+    width: 100%;
+    height: 100px;
+    margin-top: 50px;
+}
+h2{
+    font-size: 26px;
+    color: darkred;
+    text-align: center;
+}
+.card {
+    /* this adds the "card" effect */
+    padding: 55px;
+    text-align:center;
+    text-size-adjust: 3px;
+  }
+  .con{
+    padding-right: 20px;
+  }
+  .con2{
+    padding-left: 20px;
+  }
+  
+.bod1 {
+    margin-bottom: 0px;
+    margin-top: 5px;
+    border-top: 1px solid #000;
+    margin-left: 70px;
+    
+}
+.bod2 {
+    margin-bottom: 2px;
+    margin-top: -10px;
+    border-top: 1px solid #000;
+    margin-left: 90px;
+    
+}
+p{
+    font-size: small;
+    text-align: center;
+}
+.card span{
+height: 500px;
+width: 300px;
+padding-block: 20px;
+}
+.hover-shadow:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+  .img-box {
+    background-color: grey;
+    width: 300px;
+    margin: 20px;
+    display: inline-flex;
+    
+}
+.img-box h4{
+    font-size: large;
+    color: black;
+    text-align: center;
+    margin-top: 10px;
+    margin-left: 30px;
+}
+
+.text-box{
+  background-color: grey;
+    width: 300px;
+    margin: 20px;
+    display: inline-flex;
+}
+.text-box h4{
+  font-size: large;
+    color: black;
+    text-align: center;
+    margin-top: 10px;
+    margin-left: 30px;
+}

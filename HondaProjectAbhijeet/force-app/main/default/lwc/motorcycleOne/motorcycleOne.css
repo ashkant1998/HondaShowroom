@@ -1,0 +1,155 @@
+.slds_demo{
+    background-color: white;
+}
+h2{
+    font-size: 20px;
+    border-bottom:white;
+}
+.custom-border {
+    border-bottom: 2px solid #000; 
+}
+.image-container {
+    position: relative;
+    /* width: 50%;* */
+}
+
+.image-container .overlay-text {
+    background-color: red;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    color:white;
+    font-size: 20px;
+    font-weight: bold;
+}
+.slds-border_top{
+    color: black;
+}
+.container {
+    position: relative;
+    width: 50%;
+    max-width: 300px;
+  }
+  
+  /* Make the image to responsive */
+  .image {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+  
+  /* The overlay effect - lays on top of the container and over the image */
+  .overlay {
+    position: absolute;
+    bottom: 0;
+    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.5); /* Black see-through */
+    color: #f1f1f1;
+    width: 100%;
+    transition: .5s ease;
+    opacity:0;
+    color: white;
+    font-size: 20px;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  /* When you mouse over the container, fade in the overlay title */
+  .container:hover .overlay {
+    opacity: 1;
+  }
+.image-container1 {
+    position: relative;
+    /* width: 50%;* */
+}
+
+.image-container1 .overlay-text {
+    background-color: red;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    color:white;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.image-container2 {
+    position: relative;
+    /* width: 50%;* */
+}
+
+.image-container2 .overlay-text {
+    background-color: red;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    color:white;
+    font-size: 20px;
+    font-weight: bold;
+}.image-container3{
+    position: relative;
+    /* width: 50%;* */
+}
+
+.image-container3 .overlay-text {
+    background-color: red;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    color:white;
+    font-size: 20px;
+    font-weight: bold;
+}.image-container4 {
+    position: relative;
+    /* width: 50%;* */
+}
+
+.image-container4 .overlay-text {
+    background-color: red;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    color:white;
+    font-size: 20px;
+    font-weight: bold;
+}.image-container5 {
+    position: relative;
+    /* width: 50%;* */
+}
+
+.image-container5 .overlay-text {
+    background-color: red;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    color:white;
+    font-size: 20px;
+    font-weight: bold;
+}.image-container6 {
+    position: relative;
+    /* width: 50%;* */
+}
+
+.image-container6 .overlay-text {
+    background-color: red;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    color:white;
+    font-size: 20px;
+    font-weight: bold;
+}.image-container7 {
+    position: relative;
+    /* width: 50%;* */
+}
+
+.image-container7 .overlay-text {
+    background-color: red;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    color:white;
+    font-size: 20px;
+    font-weight: bold;
+} 
+
