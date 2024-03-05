@@ -12,7 +12,7 @@ import MOBILE_FIELD from '@salesforce/schema/Product_Enquiry__c.Mobile__c';
 //import I_AGREE_CB_FIELD from '@salesforce/schema/Product_Enquiry__c.I_agree_to_the_terms_and_conditions__c';
 import { createRecord } from 'lightning/uiRecordApi';
 import { ShowToastEvent } from 'lightning/platformShowToastEvent';
-
+//import { ShowToastEvent } from 'lightning/platformShowToastEvent';
 export default class ProductEnquiry extends LightningElement {
     Imageview = Image;
     
