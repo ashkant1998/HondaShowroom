@@ -1,0 +1,17 @@
+<template>
+    <div>
+        <span><img src={Imageview} alt="ProductEnquiryLogo"/></span>
+    </div>
+    <lightning-card title="Product Enquiry" icon-name="standard:search">
+        <div class="slds-var-m-around_medium">
+            <lightning-record-form
+                object-api-name="Product_Enquiry__c"
+                layout-type="Full"
+                mode="edit"
+                columns="2"
+                fields={fields}
+                onsubmit={handleProductSubmit}
+            ></lightning-record-form>
+        </div>
+    </lightning-card>
+</template>

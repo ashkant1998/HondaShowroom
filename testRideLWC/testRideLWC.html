@@ -1,0 +1,17 @@
+<template>
+    <div>
+        <span><img src={Imageview} alt="ProductEnquiryLogo"/></span>
+    </div>
+    <lightning-card title="Test Ride" icon-name="custom:custom80">
+        <div class="slds-var-m-around_medium">
+            <lightning-record-form
+                object-api-name="Test_Ride__c"
+                layout-type="Full"
+                mode="edit"
+                columns="2"
+                fields={fields}
+                onsubmit={handleTestSubmit}
+            ></lightning-record-form>
+        </div>
+    </lightning-card>
+</template>
