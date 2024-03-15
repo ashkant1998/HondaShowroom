@@ -1,0 +1,246 @@
+h2{
+    font-size: 20px;
+    border-bottom:white;
+}
+.custom-border {
+    border-bottom: 2px solid #000; 
+}
+.image-container {
+    position: relative;
+    /* width: 50%;* */
+}
+
+.image-container .overlay-text {
+    background-color: red;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    color:white;
+    font-size: 20px;
+    font-weight: bold;
+}
+.slds-border_top{
+    color: black;
+}
+/*.container {
+    position: relative;
+    width: 50%;
+    max-width: 300px;
+  }
+  
+  /* Make the image to responsive */
+  .image {
+    display: block;
+    height: auto;
+  }
+  
+  /* The overlay effect - lays on top of the container and over the image */
+  .overlay {
+    display: block;
+    position: absolute;
+    height:100%;
+    width:80%;
+    bottom: 0;
+    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.5); /* Black see-through */
+    color: #f1f1f1;
+    transition: .5s ease;
+    opacity:0;
+    color: white;
+    font-size: 18px;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  /* When you mouse over the container, fade in the overlay title */
+  .container:hover .overlay {
+    opacity: 1;
+  }
+  .container:hover .image{
+    opacity: 0.3;
+  }
+/*.image {
+    opacity: 1;
+    display: block;
+    height: auto;
+    
+  }
+  /* The overlay effect - lays on top of the container and over the image */
+/*.overlay {
+    position: absolute;
+    bottom: 0;
+    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.5); /* Black see-through */
+   /* width: 100%;
+    transition: .5s ease;
+    transition-duration: 0.5s;
+    opacity:0;
+    font-size: 20px;
+    padding: 20px;
+    text-align: left;
+  }
+  
+.middle {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: left;
+}
+.image-container:hover .image{
+    opacity: 0.3;
+  }
+.image-container:hover .middle {
+    opacity: 1;
+}
+.text hr{
+    border:1px solid white;
+    color: white;
+    font-size: 18px;
+    padding-left: 20px;
+    padding-bottom: 10px;
+}
+h2{
+    font-size:20px;
+}*/
+.image-container1 {
+    position: relative;
+    /* width: 50%;* */
+}
+.image-container1 .overlay-text {
+    background-color: red;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    color:white;
+    font-size: 20px;
+    font-weight: bold
+}
+.slds-border_top{
+    color: black;
+}
+.image1 {
+    display: block;
+    height: auto;
+  }
+  
+  /* The overlay effect - lays on top of the container and over the image */
+  .overlay1 {
+    display: block;
+    position: absolute;
+    height:100%;
+    width:80%;
+    bottom: 0;
+    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.5); /* Black see-through */
+    color: #f1f1f1;
+    transition: .5s ease;
+    opacity:0;
+    color: white;
+    font-size: 18px;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  /* When you mouse over the container, fade in the overlay title */
+  .container1:hover .overlay1 {
+    opacity: 1;
+  }
+  .container1:hover .image1{
+    opacity: 0.3;
+  }
+.image-container2 {
+    position: relative;
+    /* width: 50%;* */
+}
+.image-container2 .overlay-text {
+    background-color: red;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    color:white;
+    font-size: 20px;
+    font-weight: bold
+}
+.slds-border_top{
+    color: black;
+}
+.image2 {
+    display: block;
+    height: auto;
+  }
+  
+  /* The overlay effect - lays on top of the container and over the image */
+  .overlay2{
+    display: block;
+    position: absolute;
+    height:100%;
+    width:80%;
+    bottom: 0;
+    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.5); /* Black see-through */
+    color: #f1f1f1;
+    transition: .5s ease;
+    opacity:0;
+    color: white;
+    font-size: 18px;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  /* When you mouse over the container, fade in the overlay title */
+  .container2:hover .overlay2{
+    opacity: 1;
+  }
+  .container2:hover .image2{
+    opacity: 0.3;
+  }
+.image-container3 {
+    position: relative;
+    /* width: 50%;* */
+}
+.image-container3 .overlay-text {
+    background-color: red;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    color:white;
+    font-size: 20px;
+    font-weight: bold
+}
+.slds-border_top{
+    color: black;
+}
+.image3 {
+    display: block;
+    height: auto;
+  }
+  
+  /* The overlay effect - lays on top of the container and over the image */
+.overlay3 {
+    display: block;
+    position: absolute;
+    height:100%;
+    width:80%;
+    bottom: 0;
+    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.5); /* Black see-through */
+    color: #f1f1f1;
+    transition: .5s ease;
+    opacity:0;
+    color: white;
+    font-size: 18px;
+    padding: 10px;
+    text-align: center;
+}
+  
+  /* When you mouse over the container, fade in the overlay title */
+.container3:hover .overlay3 {
+    opacity: 1;
+}
+.container3:hover .image3{
+    opacity: 0.3;
+}
